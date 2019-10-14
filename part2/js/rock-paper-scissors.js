@@ -30,13 +30,13 @@ rockPaperScissors = () => {
     if ((compChosen === 'rock' && userChosen === 'rock') 
     || (compChosen === 'paper' && userChosen === 'paper') 
     ||(compChosen === 'sicssors' && userChosen === 'sicssors')) {
-        document.write('Both computer and you chose ' + userChosen);
+        window.alert('Both computer and you chose ' + userChosen);
     } else if ((compChosen === 'rock' && userChosen === 'paper') 
     || (compChosen === 'paper' && userChosen === 'sicssors') 
     || (compChosen === 'sicssors' && userChosen === 'rock')) {
-        document.write('Computer chose ' + compChosen + '. You chose ' + userChosen + '. So you win');
+        window.alert('Computer chose ' + compChosen + '. You chose ' + userChosen + '. So you win');
     } else {
-        document.write('Computer chose ' + compChosen + '. You chose ' + userChosen + '. So computer wins');
+        window.alert('Computer chose ' + compChosen + '. You chose ' + userChosen + '. So computer wins');
     }
 }
 
