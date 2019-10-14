@@ -34,7 +34,7 @@ main = () => {
 }
 
 show = () => {
-    inventary.map((product) => {
+    inventary.sort((a, b) => (a[0] > b[0]) ? 1 : -1).map((product) => {
         console.log(product[0]+' '+product[1]+' '+product[2]+' '+product[3]);
     });
 }
