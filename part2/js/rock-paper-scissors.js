@@ -6,7 +6,7 @@ userSelection = () => {
         case 'p':
             return 'paper';
         case 's':
-            return 'sicssors'; 
+            return 'scissors'; 
         default:
             return userSelection();
     }
@@ -20,7 +20,7 @@ computerSelection = () => {
         case 1:
             return 'paper';
         case 2:
-            return 'sicssors'; 
+            return 'scissors'; 
     }
 }
 
@@ -29,11 +29,11 @@ rockPaperScissors = () => {
     var userChosen = userSelection();
     if ((compChosen === 'rock' && userChosen === 'rock') 
     || (compChosen === 'paper' && userChosen === 'paper') 
-    ||(compChosen === 'sicssors' && userChosen === 'sicssors')) {
+    ||(compChosen === 'scissors' && userChosen === 'scissors')) {
         window.alert('Both computer and you chose ' + userChosen);
     } else if ((compChosen === 'rock' && userChosen === 'paper') 
-    || (compChosen === 'paper' && userChosen === 'sicssors') 
-    || (compChosen === 'sicssors' && userChosen === 'rock')) {
+    || (compChosen === 'paper' && userChosen === 'scissors') 
+    || (compChosen === 'scissors' && userChosen === 'rock')) {
         window.alert('Computer chose ' + compChosen + '. You chose ' + userChosen + '. So you win');
     } else {
         window.alert('Computer chose ' + compChosen + '. You chose ' + userChosen + '. So computer wins');
