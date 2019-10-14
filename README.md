@@ -3,15 +3,14 @@ Javascript Part II
 
 # Technologies
  1. Javascript
- 2. Loops
- 3. Arrays
- 4. Event Handlers
  
 # Editor
  1. Visual Studio Code
  
 # Scope
- 1. Javascript variables, loop, switch, functions
+ 1. Loops
+ 2. Arrays
+ 3. Event Handlers
  
  # Instructor
  1. Prof. Zak Ruvalcaba
