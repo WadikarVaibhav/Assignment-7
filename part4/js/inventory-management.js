@@ -29,6 +29,9 @@ main = () => {
             case '3':
                 cont = false;
                 break;
+            default:
+                cont = false;
+                break;
         }
     } while (cont);
 }
